@@ -17,14 +17,16 @@ ll bsearch(vi arr,int l,int r,int key){
 
 
 void solve(){
+	// ifstream cin("input.txt");
+	//ofstream cout("output.txt");
 	//solution here
+	
 }
 
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);cout.tie(0);
-//    ifstream cin("input.txt");
-//    ofstream cout("output.txt");
+
 //	add these two lines above when input output 
 //	from and to a file
 	int t=1;
