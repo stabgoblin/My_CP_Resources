@@ -24,11 +24,8 @@ void solve(){
 }
 
 int main() {
-	ios_base::sync_with_stdio(false);
-	cin.tie(0);cout.tie(0);
-
-//	add these two lines above when input output 
-//	from and to a file
+	ios_base::sync_with_stdio(false);cin.tie(0);
+	//fast io
 	int t=1;
 //	cin>>t; //if multiple test cases
 	while(t--){
