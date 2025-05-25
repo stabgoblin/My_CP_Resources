@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <iomanip>
 #define ull unsigned long long
 #define ll long long
 #define vi vector<int>
@@ -15,7 +16,6 @@
 #define ci cin>>
 #define all(arr) arr.begin(),arr.end()
 #define rall(arr) arr.rbegin(),arr.rend() 
-#define sayok co "ok" << el;
 
 using namespace std;
 
@@ -25,7 +25,7 @@ T mod(T a, T b) {
 }
 
 template <typename T>
-T floor_div(T a, T b) {
+T fdiv(T a, T b) {
     T q = a / b;
     T r = a % b;
     if (r != 0 && ((a < 0) ^ (b < 0))) {
@@ -35,7 +35,7 @@ T floor_div(T a, T b) {
 }
 
 template <typename T>
-T ceil_div(T a, T b) {
+T cdiv(T a, T b) {
     T q = a / b;
     T r = a % b;
     if (r != 0 && !((a < 0) ^ (b < 0))) {
